@@ -22,6 +22,11 @@ commit
 git commit -m "message"
 ````
 
+log
+````
+git log
+````
+
 clone
 ````
 git clone url
@@ -51,7 +56,29 @@ push
 git push origin master
 ````
 
-merge
+branch
+````
+git branch
+````
+````
+git branch name
+````
+````
+git branch -d name
+````
+
+checkout
+````
+git checkout name
+````
+````
+git checkout -b name
+````
+
+merge : fast-forward
+````
+git merge branchname
+````
 
 checkout
 
