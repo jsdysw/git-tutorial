@@ -21,7 +21,8 @@ source : https://backlog.com/git-tutorial/kr/
 | checkout | ````git checkout name```` |
 | make and checkout | ````git checkout -b name```` |
 | merge(fast-forward) | ````git merge branchname ````|
-
+| merge(non fast-forward) | ````git merge branchname```` (-> solve collision -> add,commit) |
+| rebase | ````git rebase branchname```` (-> solve collision -> add -> ````git rebase --continue````) -> ````git checkout branchname```` -> ````git merge firstbranch```` |
 
 stash
 
