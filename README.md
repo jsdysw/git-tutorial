@@ -12,7 +12,7 @@ source : https://backlog.com/git-tutorial/kr/
 | clone | ````git clone url```` |
 | remote list | ````git remote -v```` |
 | remote add | ````git remote add origin url```` |
-| pull | ````git pull origin master```` |
+| pull(merge commit) | ````git pull origin master```` (-> solve collision -> commit) |
 | fetch | ````git fetch origin```` |
 | push | ````git push origin master```` |
 | list branch | ````git branch```` |
