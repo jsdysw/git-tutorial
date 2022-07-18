@@ -26,8 +26,4 @@ source : https://backlog.com/git-tutorial/kr/
 
 stash
 
-fast-forward/non fast-forward
 
-merge commit 
-
-rebase
