@@ -9,7 +9,7 @@ source : https://backlog.com/git-tutorial/kr/
 - stash : temporary space to save current work without commit and checkout another branch
 
 ### remote repository
-| Command | example |
+| Command | usage |
 | --- | --- |
 | init | ````git init```` |
 | status | ````git status```` |
@@ -25,7 +25,7 @@ source : https://backlog.com/git-tutorial/kr/
 | push | ````git push origin master```` |
 
 ### branch
-| Command | example |
+| Command | usage |
 | --- | --- |
 | list branch | ````git branch```` |
 | make branch | ````git branch name```` |
@@ -37,13 +37,14 @@ source : https://backlog.com/git-tutorial/kr/
 | rebase | ````git rebase branchname```` (-> solve collision -> add -> ````git rebase --continue````) -> ````git checkout branchname```` -> ````git merge firstbranch```` |
 
 ### change commit
-| Command | example |
+| Command | usage |
 | --- | --- |
 | amend | ````git commit --amend```` |
-| revert (need to revert recent commit first) | ````git revert HEAD```` |
+| revert (recent commit) | ````git revert HEAD```` |
+| reset(hard) | ````git reset --hard commitToGo```` |
 
 ### tag
-| Command | example |
+| Command | usage |
 | --- | --- |
 | make tag | ````git tag tagname```` |
 | tag list | ````git tag```` |
