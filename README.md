@@ -39,9 +39,13 @@ source : https://backlog.com/git-tutorial/kr/
 ### change commit
 | Command | usage |
 | --- | --- |
-| amend | ````git commit --amend```` |
+| edit commit message | ````git commit --amend```` |
 | revert (recent commit) | ````git revert HEAD```` |
 | reset(hard) | ````git reset --hard commitToGo```` |
+| cherry pick | ````git cherry-pick commit```` |
+| integrate commits | ````git rebase -i HEAD~~ -> squash|
+| edit commit | ````git rebase -i HEAD```` -> edit -> add, commit --amend -> (solve collision -> add) -> ````git rebase --continue```` | 
+* git reset --hard ORIG_HEAD : to reset rebase -i
 
 ### tag
 | Command | usage |
