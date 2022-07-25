@@ -20,7 +20,7 @@ source : https://backlog.com/git-tutorial/kr/
 | clone | ````git clone url```` |
 | remote list | ````git remote -v```` |
 | remote add | ````git remote add origin url```` |
-| pull(merge commit) | ````git pull origin master```` (-> solve collision -> commit) |
+| pull(merge commit) | ````git pull origin master```` (-> solve conflict -> commit) |
 | fetch | ````git fetch origin```` |
 | push | ````git push origin master```` |
 
@@ -33,9 +33,9 @@ source : https://backlog.com/git-tutorial/kr/
 | checkout | ````git checkout name```` |
 | make and checkout | ````git checkout -b name```` |
 | merge(fast-forward) | ````git merge branchname ````|
-| merge(non fast-forward) | ````git merge branchname```` (-> solve collision -> add,commit) |
+| merge(non fast-forward) | ````git merge branchname```` (-> solve conflict -> add,commit) |
 | integrate & merge | ````git merge --squash branchname```` |
-| rebase | ````git rebase branchname```` (-> solve collision -> add -> ````git rebase --continue````) -> ````git checkout branchname```` -> ````git merge firstbranch```` |
+| rebase | ````git rebase branchname```` (-> solve conflict -> add -> ````git rebase --continue````) -> ````git checkout branchname```` -> ````git merge firstbranch```` |
 
 ### change commit
 | Command | usage |
@@ -45,7 +45,7 @@ source : https://backlog.com/git-tutorial/kr/
 | reset(hard) | ````git reset --hard commitToGo```` |
 | cherry pick | ````git cherry-pick commit```` |
 | integrate commits | ````git rebase -i HEAD~~ -> squash|
-| edit commit | ````git rebase -i HEAD```` -> edit -> add, commit --amend -> (solve collision -> add) -> ````git rebase --continue```` | 
+| edit commit | ````git rebase -i HEAD```` -> edit -> add, commit --amend -> (solve conflict -> add) -> ````git rebase --continue```` | 
 * git reset --hard ORIG_HEAD : to reset rebase -i
 
 ### tag
