@@ -34,7 +34,7 @@ source : https://backlog.com/git-tutorial/kr/
 | make and checkout | ````git checkout -b name```` |
 | merge(fast-forward) | ````git merge branchname ````|
 | merge(non fast-forward) | ````git merge branchname```` (-> solve conflict -> add,commit) |
-| integrate & merge | ````git merge --squash branchname```` |
+| integrate & merge | ````git merge --squash branchname```` -> add -> ````git commit```` |
 | rebase | ````git rebase branchname```` (-> solve conflict -> add -> ````git rebase --continue````) -> ````git checkout branchname```` -> ````git merge firstbranch```` |
 
 ### change commit
