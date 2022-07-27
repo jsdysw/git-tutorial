@@ -44,7 +44,7 @@ source : https://backlog.com/git-tutorial/kr/
 | revert (recent commit) | ````git revert HEAD```` |
 | reset(hard) | ````git reset --hard commitToGo```` |
 | cherry pick | ````git cherry-pick commit```` |
-| integrate commits | ````git rebase -i HEAD~~ -> squash|
+| integrate commits | ````git rebase -i HEAD~~```` -> squash|
 | edit commit | ````git rebase -i HEAD```` -> edit -> add, commit --amend -> (solve conflict -> add) -> ````git rebase --continue```` | 
 * git reset --hard ORIG_HEAD : to reset rebase -i
 
